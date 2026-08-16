@@ -1,2 +1,5 @@
-gradlew binary
+* text=auto
+gradlew eol=lf
 *.jar binary
+*.sh eol=lf
+*.gradle eol=lf
