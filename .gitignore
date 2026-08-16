@@ -1,0 +1,59 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle
+/build/
+.DS_Store
+
+# IDE
+.vscode/
+.classpath
+.project
+.settings/
+.c9/
+*.launch
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# Git
+.git/
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test
+/test/fixtures/tmp/*
+/test/tmp/*
+/tmp/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.jar
+*.aar
+*.so
+
+# Gradle wrapper
+gradlew.jar
