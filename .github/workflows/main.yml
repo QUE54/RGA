@@ -19,8 +19,8 @@ jobs:
 
     - name: Fix line endings and grant execute permission for gradlew
       run: |
-          sed -i 's/\r$//' ./gradlew
-          chmod +x ./gradlew
+        tr -d '\r' < ./gradlew > ./gradlew.tmp && mv ./gradlew.tmp ./gradlew
+        chmod +x ./gradlew
 
     - name: Build with Gradle
       run: ./gradlew assembleDebug
